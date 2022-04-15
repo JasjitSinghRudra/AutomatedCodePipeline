@@ -15,7 +15,7 @@
 <body>
 
 <nav class="navbar navbar-dark" style="background-color: #393f45;">
-    <a class="navbar-brand">FitTrack
+    <a class="navbar-brand" href = "http://3.129.5.155:8090/SpringWebApp/index.jsp">FitTrack
     </a>
   </div>
 </nav>
@@ -23,7 +23,7 @@
 <div>
 	<center><br><br><br><br><br>
 	<p>Your response has been submitted successfully.</p>
-	<p>Click <a href="http://localhost/phpmyadmin/Ceol/contact_us.php">here</a> to go back.</p>
+	<p>Click <a href = "http://3.129.5.155:8090/SpringWebApp/index.jsp">here</a> to go back.</p>
 	</center>
 </div>
 

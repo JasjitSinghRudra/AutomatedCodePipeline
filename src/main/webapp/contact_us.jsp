@@ -15,7 +15,7 @@
 <body>
 
 <nav class="navbar navbar-dark" style="background-color: #393f45;">
-    <a class="navbar-brand">FitTrack
+    <a class="navbar-brand" href = "http://3.129.5.155:8090/SpringWebApp/index.jsp">FitTrack
     </a>
   </div>
 </nav>
@@ -66,10 +66,10 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/phpmyadmin/Ceol/about_us.php">About Us</a>
+        <a class="nav-link" href="http://3.129.5.155:8090/SpringWebApp/about_us.jsp">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/phpmyadmin/Ceol/contact_us.php">Contact and Support</a>
+        <a class="nav-link" href="http://3.129.5.155:8090/SpringWebApp/contact_us.jsp">Contact and Support</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">

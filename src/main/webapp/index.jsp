@@ -146,8 +146,8 @@ body {
     <div class="inner">
       <h3 class="masthead-brand" style="text-shadow: 0 0 3px #060606, 0 0 5px #fdfafa;">FitTrack</h3>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link" href="#" style="text-shadow: 0 0 3px #060606, 0 0 5px #fdfafa; color: white;">About Us</a>
-        <a class="nav-link" href="#" style="text-shadow: 0 0 3px #060606, 0 0 5px #fdfafa; color: white;">Contact Us</a>
+        <a class="nav-link" href="http://3.129.5.155:8090/SpringWebApp/about_us.jsp" style="text-shadow: 0 0 3px #060606, 0 0 5px #fdfafa; color: white;">About Us</a>
+        <a class="nav-link" href="http://3.129.5.155:8090/SpringWebApp/contact_us.jsp" style="text-shadow: 0 0 3px #060606, 0 0 5px #fdfafa; color: white;">Contact Us</a>
       </nav>
     </div>
   </header>
