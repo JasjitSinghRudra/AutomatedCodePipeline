@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -157,7 +156,7 @@ body {
     <h1 class="cover-heading">FitTrack</h1>
     <p class="lead">All your fitness requirements in one place.</p>
     <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Enter</a>
+      <a href="http://3.129.5.155:8090/SpringWebApp/bmicalc.jsp" class="btn btn-lg btn-secondary">Enter</a>
     </p>
   </main>
   </div>
