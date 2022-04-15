@@ -221,16 +221,16 @@
                        //request.setAttribute("BMI", grade);
                  }
 
-                 if(grade.equals("Healthy") || grade.equals("Underweight") && disease.equals("") || ailments.equals("") || physicalChallenges.equals("")){
+                 if(grade.equals("Healthy") || grade.equals("Underweight") && disease.equals(null) || ailments.equals(null) || physicalChallenges.equals(null)){
                     recommendation = "Normal Exercise Plan";
                  }
-                 else if(grade.equals("Overweight") || grade.equals("Severely Overweight") && disease.equals("") || ailments.equals("") || physicalChallenges.equals("")){
+                 else if(grade.equals("Overweight") || grade.equals("Severely Overweight") && disease.equals(null) || ailments.equals(null) || physicalChallenges.equals(null)){
                     recommendation = "Cardio Exercise Plan";
                  }
-                 else if(grade.equals("Healthy") || grade.equals("Underweight") && !disease.equals("") || !ailments.equals("") || !physicalChallenges.equals("")){
+                 else if(grade.equals("Healthy") || grade.equals("Underweight") && !disease.equals(null) || !ailments.equals(null) || !physicalChallenges.equals(null)){
                     recommendation = "Light Exercise Plan";
                  }
-                 else if (grade.equals("Overweight") || grade.equals("Severely Overweight") && !disease.equals("") || !ailments.equals("") || !physicalChallenges.equals("")) {
+                 else if (grade.equals("Overweight") || grade.equals("Severely Overweight") && !disease.equals(null) || !ailments.equals(null) || !physicalChallenges.equals(null)) {
                      recommendation = "Yoga";
                  }
                  request.setAttribute("Grade", grade);
