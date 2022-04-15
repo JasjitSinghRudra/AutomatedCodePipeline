@@ -4,15 +4,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home | FitTrack</title>
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+  <title>Home | FitTrack</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
           <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-		<link rel="shortcut icon" type="image/png" href="https://th.bing.com/th/id/R.f299c73375ed738c4720c396ba8456a3?rik=9opNG0uIGSSH5g&riu=http%3a%2f%2fclipartmag.com%2fimages%2frunner-silhouette-clipart-22.jpg&ehk=0cT717dwOQVmwC6DghdGrn9f9awTD1bKQ%2bXz%2bNCckYY%3d&risl=&pid=ImgRaw&r=0">
+    <link rel="shortcut icon" type="image/png" href="https://th.bing.com/th/id/R.f299c73375ed738c4720c396ba8456a3?rik=9opNG0uIGSSH5g&riu=http%3a%2f%2fclipartmag.com%2fimages%2frunner-silhouette-clipart-22.jpg&ehk=0cT717dwOQVmwC6DghdGrn9f9awTD1bKQ%2bXz%2bNCckYY%3d&risl=&pid=ImgRaw&r=0">
 </head>
 
 <body>
@@ -58,9 +58,9 @@
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox"  id="bothDiseases" name="disease" value="bothDiseases">
+          <input class="form-check-input" type="checkbox"  id="bothDiseases" name="disease" value="bothDiseases" selected required>
           <label class="form-check-label" for="gridRadios1">
-            Both
+            None
           </label>
         </div>
       </div>
@@ -105,13 +105,13 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="asthma" name="ailments" value="asthma">
           <label class="form-check-label" for="gridRadios2">
-            Asthma
+            Others
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="asthma" name="ailments" value="asthma">
+          <input class="form-check-input" type="checkbox" id="asthma" name="ailments" value="asthma" selected required>
           <label class="form-check-label" for="gridRadios2">
-            Others
+            None
           </label>
         </div>
       </div>
