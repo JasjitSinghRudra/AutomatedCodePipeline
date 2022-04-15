@@ -37,7 +37,7 @@
 	<div class="row-style-login-page-pannel" >
 		<div class="col" >
 			<h3>CONTACT US</h3>
-			<form method="post"  action="contact.php">
+			<form method="post"  action="http://3.129.5.155:8090/SpringWebApp/contact.jsp">
 				<div class="form-group">
 					Name:<input type="text" class="form-control" name="name" >
 				</div>
