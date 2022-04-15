@@ -58,7 +58,7 @@
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox"  id="bothDiseases" name="disease" value="bothDiseases" selected required>
+          <input class="form-check-input" type="checkbox"  id="bothDiseases" name="disease" value="bothDiseases" selected>
           <label class="form-check-label" for="gridRadios1">
             None
           </label>
@@ -109,7 +109,7 @@
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="asthma" name="ailments" value="asthma" selected required>
+          <input class="form-check-input" type="checkbox" id="asthma" name="ailments" value="asthma" selected>
           <label class="form-check-label" for="gridRadios2">
             None
           </label>
